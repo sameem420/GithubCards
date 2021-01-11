@@ -1,0 +1,15 @@
+.info {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+}
+img {
+    padding: 5px;
+}
+.name {
+    font-size: large;
+}
+.company {
+   font-size: small;
+}
