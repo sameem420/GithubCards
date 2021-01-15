@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from './Card';
+import './CardList.css';
 
 const CardList = (props) => {
-    console.log(props.profiles);
     return (
-        <div>
-            {props.profiles.map(profile => <Card {...profile} key={profile.id} />)}
+        <div className="wrapper">
+            <div>
+                {props.profiles.map(profile => <Card {...profile} key={profile.id} />)}
+            </div>
         </div>
     )
 };

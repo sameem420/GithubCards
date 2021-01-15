@@ -1,11 +1,14 @@
 .info {
-    display: inline-block;
-    border: 1px solid gray;
+    margin: 5px;
+    border: 1px dashed gray;
     border-radius: 5px;
     width: 300px;
 }
 img {
-    padding: 5px;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 100px;
 }
 .name {
     font-size: large;
