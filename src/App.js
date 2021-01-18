@@ -21,7 +21,8 @@ class App extends React.Component {
       <form onSubmit={this.handleSubmit} className="inputForm">
         <input 
           type="text" 
-          placeholder="GitHub Username" 
+          placeholder="GitHub Username"
+          className="material" 
           value={this.state.userName}
           onChange={event => this.setState({ userName : event.target.value })}
           required 

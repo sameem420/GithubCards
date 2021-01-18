@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    border: 2px dashed rgb(27, 27, 27);
 }
