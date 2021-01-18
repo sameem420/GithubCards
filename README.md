@@ -1,5 +1,5 @@
-﻿# REACTMemeGeneratorApp
-Meme Generator app developed in ReactJS (image retrieval from third party API)
+﻿# REACTGitHubCardsApp
+Generating GitHub User Profile Card by taking the user input and fetching data using API (Axios) in React
 
 
 # Getting Started with Create React App
